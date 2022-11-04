@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('foo') {
             steps {
-                sh "echo 'Hello World!"
+                sh "echo 'Hello World!'"
             }
         }
         stage('Preparation') {
