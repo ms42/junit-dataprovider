@@ -1,7 +1,13 @@
 pipeline {
     agent any
 
+
     stages {
+        stage('foo') {
+            steps {
+                sh "echo 'Hello World!"
+            }
+        }
         stage('Preparation') {
             steps {
                 checkout scm
